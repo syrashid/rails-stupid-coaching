@@ -1,9 +1,11 @@
 <div class="container mt-5">
   <h1>Stupid Coaching</h1>
   <p>Ask your coach anything</p>
+
+  <!-- autocomplete="off" -->
   <form action="/answer" class="form-group d-flex">
 
-    <input type="text" name="question" class="form-control" placeholder = "Seriously... anything">
-    <input type="submit" value="Ask!" class="form-control-md btn btn-primary">
+    <input type="text" name="question" class="form-control" autocomplete="nope" placeholder = "Seriously... anything">
+    <input type="submit" autocomplete="nope" value="Ask!" class="form-control-md btn btn-primary">
   </form>
 </div>
